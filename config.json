@@ -1,0 +1,11 @@
+[
+    {"attack": "clean"},
+    {"attack": "fgsm", "eps": 2.55, "bb": false, "attack_mode": "bptt"},
+    {"attack": "fgsm", "eps": 2.55, "bb": false, "attack_mode": "bptr"},
+    {"attack": "pgd", "eps": 2.55, "bb": false, "alpha": 2, "steps":5, "attack_mode": "bptt"},
+    {"attack": "pgd", "eps": 2.55, "bb": false, "alpha": 2, "steps":5, "attack_mode": "bptr"},
+    {"attack": "fgsm", "eps": 2.55, "bb": true, "attack_mode": "bptt"},
+    {"attack": "fgsm", "eps": 2.55, "bb": true, "attack_mode": "bptr"},
+    {"attack": "pgd", "eps": 2.55, "bb": true, "alpha": 2, "steps":5, "attack_mode": "bptt"},
+    {"attack": "pgd", "eps": 2.55, "bb": true, "alpha": 2, "steps":5, "attack_mode": "bptr"}
+]
